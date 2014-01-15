@@ -5,3 +5,15 @@ With ok coding practices and a lot of heart.
 
 
  ***/
+
+ body {
+ 	background:#B6BFBC;
+ }
+
+ header {
+ 	background:black;
+ }
+
+ .top-bar {
+ 	position:static;
+ }
