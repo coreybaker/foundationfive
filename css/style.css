@@ -13,3 +13,8 @@ With ok coding practices and a lot of heart.
  .top-bar {
  	position:static;
  }
+
+ .top-bar-section ul li.active  > a {
+ 	background:none;
+ }
+
