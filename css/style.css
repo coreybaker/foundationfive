@@ -18,6 +18,10 @@ With ok coding practices and a lot of heart.
  	background:none;
  }
 
+.top-bar-section ul li.active > a:hover {
+	background:red;
+}
+
 .pic_wrapper {
 	width:100%;
 }
@@ -26,17 +30,18 @@ With ok coding practices and a lot of heart.
 	width:100%;
 }
 
-.message {
+.message, .small_message {
 	text-align:center;
+	margin-top:4em;
+}
+
+.message span, .small_message span {
+	color:red;
+}
+
+.small_message h2:before {
+content: "-";
 }
 
 
-@media all and (max-width:539px) {
 
-#main_message h2 {
-	text-align:left;
-}
-
-
-
-}
