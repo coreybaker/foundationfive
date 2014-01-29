@@ -7,7 +7,7 @@ With ok coding practices and a lot of heart.
  ***/
 
  body {
- 	background:#B6BFBC;
+ 
  }
 
  .top-bar {
@@ -18,3 +18,25 @@ With ok coding practices and a lot of heart.
  	background:none;
  }
 
+.pic_wrapper {
+	width:100%;
+}
+
+.pic_wrapper img {
+	width:100%;
+}
+
+.message {
+	text-align:center;
+}
+
+
+@media all and (max-width:539px) {
+
+#main_message h2 {
+	text-align:left;
+}
+
+
+
+}
